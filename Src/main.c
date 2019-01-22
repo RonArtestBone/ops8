@@ -42,6 +42,8 @@
 
 /* USER CODE BEGIN Includes */
 
+
+
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -69,7 +71,9 @@ static void MX_SPI2_Init(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
-
+void test(void)
+{
+}
 /* USER CODE END 0 */
 
 /**
@@ -80,7 +84,7 @@ static void MX_SPI2_Init(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+	test();
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/
